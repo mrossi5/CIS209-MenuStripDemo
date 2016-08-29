@@ -16,5 +16,10 @@ namespace CIS209_MenuStripDemo
         {
             InitializeComponent();
         }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }
